@@ -1,0 +1,12 @@
+[package]
+name = "sqlite-fake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sqlite-loadable = "0.0.5"
+fake = {version="2.6.0", features=["random_color", "http"]}
+quote = "1.0"
+
+[lib]
+crate-type= ["cdylib"]
